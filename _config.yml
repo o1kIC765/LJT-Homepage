@@ -1,0 +1,32 @@
+title: "Junteng Liu"
+name: "Junteng Liu"
+description: "First-year PhD candidate at HKUST NLP Group"
+url: "https://lislttt.github.io"
+baseurl: "/LJT-Homepage"
+repository: "Lislttt/LJT-Homepage"
+
+remote_theme: "academicpages/academicpages.github.io"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+
+include:
+  - _pages
+
+author:
+  name: "Junteng Liu"
+  bio: "First-year PhD candidate at HKUST NLP Group"
+  employer: "HKUST NLP Group"
+  email: "jliugi@connect.ust.hk"
+  github: "Vicent0205"
+  googlescholar: "https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate"
+  twitter: "junteng88716710"
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+markdown: kramdown
+highlighter: rouge
